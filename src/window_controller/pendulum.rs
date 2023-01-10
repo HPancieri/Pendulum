@@ -3,7 +3,7 @@ use speedy2d::{Graphics2D, color::Color};
 
 pub struct Pendulum {
 	length: f32,
-	mass: f32,
+	// mass: f32,
 	gravity: f32,
 
 	angle: f32,
@@ -18,7 +18,7 @@ impl Pendulum {
 	pub fn new(x: f32, y: f32, length: f32) -> Pendulum {
 		return Pendulum {
 			length,
-			mass: 1.0, // Mass of the Pendulum will be always 1.0
+			// mass: 1.0, // Mass of the Pendulum will be always 1.0
 			gravity: 1.5, // Gravity will be always 1.5
 
 			angle: 1.0, // Initial angle will be 1.0 radians
