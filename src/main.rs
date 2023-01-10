@@ -1,3 +1,5 @@
+mod window_controller;
+
 fn main() {
-    println!("Hello, world!");
+    window_controller::window::run();
 }
